@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Data-Ingestion-Validation-RAP-Module
+  description: "Automates the secure retrieval and validation of raw survey data from multiple sources (e.g. online surveys, lab results, administrative data). This includes Schema validation, Logging of ingestion events and anomalies, Integration with secure data platforms."
+  tags:
+    - module
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: ONS-Innovation/Data-Ingestion-Validation-RAP-Module
+  links:
+    - url: https://codespaces.new/ONS-Innovation/Data-Ingestion-Validation-RAP-Module
+      title: Create Codespace
+spec:
+  type: module
+  lifecycle: experimental
+  owner: "group:default/spotify-backstage-trial-team"
+  system: "system:default/survey-data-processing-publication-rap"
