@@ -9,7 +9,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: ONS-Innovation/Data-Ingestion-Validation-RAP-Module
   links:
-    - url: https://codespaces.new/ONS-Innovation/Data-Ingestion-Validation-RAP-Module
+    - url: https://curly-space-acorn-4p579w44j5jf7wq5.github.dev/?editor=web
       title: Open Development Environment   
 spec:
   type: module
